@@ -43,4 +43,6 @@ SELECT sum(purch_amt) FROM orders2;
 --12
 SELECT avg(purch_amt) FROM orders2;
 --13
+SELECT * FROM customers2 WHERE EXISTS(cust_name);
+--14
 SELECT GREATEST(purch_amt) FROM orders2;
